@@ -1,4 +1,4 @@
-## reference and backup for some linux config files
+## reference and backup for some linux terminal configuration files
 
 
 ### vimrc 
