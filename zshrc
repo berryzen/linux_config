@@ -1,5 +1,6 @@
 # ~/.zshrc
 
+# History options
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
 SAVEHIST=10000
@@ -16,6 +17,7 @@ setopt SHARE_HISTORY # Share history between session/terminals
 
 eval "$(starship init zsh)"
 
+# Shortcut commands 
 alias ls='exa -laGFh -s=modified'
 alias l='exa'
 alias lstl='exa -laGFh -s=modified --tree --level=2'
@@ -25,6 +27,7 @@ alias lst2='exa --tree --level=2'
 alias nv='nvim'
 alias history='history 1'
 
+# Android config
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
